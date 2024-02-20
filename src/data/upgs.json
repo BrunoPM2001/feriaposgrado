@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "area": 1,
+    "nombre": "Medicina"
+  },
+  {
+    "id": 2,
+    "area": 5,
+    "nombre": "Derecho y Ciencia Política"
+  },
+  {
+    "id": 3,
+    "area": 5,
+    "nombre": "Letras y Ciencias Humanas"
+  },
+  {
+    "id": 4,
+    "area": 1,
+    "nombre": "Farmacia y Bioquímica"
+  },
+  {
+    "id": 6,
+    "area": 5,
+    "nombre": "Educación"
+  },
+  {
+    "id": 7,
+    "area": 3,
+    "nombre": "Química e Ingeniería Química"
+  },
+  {
+    "id": 9,
+    "area": 4,
+    "nombre": "Ciencias Administrativas"
+  },
+  {
+    "id": 10,
+    "area": 2,
+    "nombre": "Ciencias Biológicas"
+  },
+  {
+    "id": 11,
+    "area": 2,
+    "nombre": "Ciencias Contables"
+  },
+  {
+    "id": 12,
+    "area": 2,
+    "nombre": "Ciencias Económicas"
+  },
+  {
+    "id": 14,
+    "area": 2,
+    "nombre": "Ciencias Matemáticas"
+  },
+  {
+    "id": 15,
+    "area": 2,
+    "nombre": "Ciencias Sociales"
+  },
+  {
+    "id": 16,
+    "area": 3,
+    "nombre": "Ingeniería Geológica, Minera, Metalúrgica y Geográfica"
+  },
+  {
+    "id": 17,
+    "area": 3,
+    "nombre": "Ingeniería Industrial"
+  },
+  {
+    "id": 18,
+    "area": 1,
+    "nombre": "Psicología"
+  },
+  {
+    "id": 19,
+    "area": 3,
+    "nombre": "Ingeniería Electrónica y Eléctrica"
+  },
+  {
+    "id": 20,
+    "area": 3,
+    "nombre": "Ingeniería de Sistemas e Informática"
+  }
+]

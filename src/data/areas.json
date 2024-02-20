@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ciencias de la Salud"
+  },
+  {
+    "id": 2,
+    "nombre": "Ciencias Básicas"
+  },
+  {
+    "id": 3,
+    "nombre": "Ingenierías"
+  },
+  {
+    "id": 4,
+    "nombre": "Ciencias Económicas y de la Gestión"
+  },
+  {
+    "id": 5,
+    "nombre": "Humanidades y Ciencias Jurídicas y Sociales"
+  }
+]

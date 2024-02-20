@@ -1,10 +1,24 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import "./index.css";
+import Inicio from "./pages/Inicio.jsx";
+import Upg from "./pages/Upg.jsx";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Inicio></Inicio>,
+  },
+  {
+    path: "/upg",
+    element: <Upg></Upg>,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
