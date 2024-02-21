@@ -2,86 +2,192 @@
   {
     "id": 1,
     "area": 1,
-    "nombre": "Medicina"
+    "nombre": "Medicina",
+    "maestrias": [
+      {
+        "id": 1,
+        "nombre": "Maestría en farmacia"
+      },
+      {
+        "id": 2,
+        "nombre": "Maestría en enfermería"
+      }
+    ],
+    "doctorados": []
   },
   {
     "id": 2,
     "area": 5,
-    "nombre": "Derecho y Ciencia Política"
+    "nombre": "Derecho y Ciencia Política",
+    "maestrias": [
+      {
+        "id": 1,
+        "nombre": "Maestría en farmacia"
+      },
+      {
+        "id": 2,
+        "nombre": "Maestría en enfermería"
+      }
+    ],
+    "doctorados": []
   },
   {
     "id": 3,
     "area": 5,
-    "nombre": "Letras y Ciencias Humanas"
+    "nombre": "Letras y Ciencias Humanas",
+    "maestrias": [
+      {
+        "id": 1,
+        "nombre": "Maestría en farmacia"
+      },
+      {
+        "id": 2,
+        "nombre": "Maestría en enfermería"
+      }
+    ],
+    "doctorados": [
+      {
+        "id": 1,
+        "nombre": "Doctorado en farmacia"
+      },
+      {
+        "id": 2,
+        "nombre": "Doctorado en enfermería"
+      }
+    ]
   },
   {
     "id": 4,
     "area": 1,
-    "nombre": "Farmacia y Bioquímica"
+    "nombre": "Farmacia y Bioquímica",
+    "maestrias": [
+      {
+        "id": 1,
+        "nombre": "Maestría en farmacia"
+      },
+      {
+        "id": 2,
+        "nombre": "Maestría en enfermería"
+      }
+    ],
+    "doctorados": [
+      {
+        "id": 1,
+        "nombre": "Doctorado en farmacia"
+      },
+      {
+        "id": 2,
+        "nombre": "Doctorado en enfermería"
+      }
+    ]
   },
   {
     "id": 6,
     "area": 5,
-    "nombre": "Educación"
+    "nombre": "Educación",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 7,
     "area": 3,
-    "nombre": "Química e Ingeniería Química"
+    "nombre": "Química e Ingeniería Química",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 9,
     "area": 4,
-    "nombre": "Ciencias Administrativas"
+    "nombre": "Ciencias Administrativas",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 10,
     "area": 2,
-    "nombre": "Ciencias Biológicas"
+    "nombre": "Ciencias Biológicas",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 11,
-    "area": 2,
-    "nombre": "Ciencias Contables"
+    "area": 4,
+    "nombre": "Ciencias Contables",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 12,
-    "area": 2,
-    "nombre": "Ciencias Económicas"
+    "area": 4,
+    "nombre": "Ciencias Económicas",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 14,
     "area": 2,
-    "nombre": "Ciencias Matemáticas"
+    "nombre": "Ciencias Matemáticas",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 15,
     "area": 2,
-    "nombre": "Ciencias Sociales"
+    "nombre": "Ciencias Sociales",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 16,
     "area": 3,
-    "nombre": "Ingeniería Geológica, Minera, Metalúrgica y Geográfica"
+    "nombre": "Ingeniería Geológica, Minera, Metalúrgica y Geográfica",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 17,
     "area": 3,
-    "nombre": "Ingeniería Industrial"
+    "nombre": "Ingeniería Industrial",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 18,
     "area": 1,
-    "nombre": "Psicología"
+    "nombre": "Psicología",
+    "maestrias": [
+      {
+        "id": 1,
+        "nombre": "Maestría en farmacia"
+      },
+      {
+        "id": 2,
+        "nombre": "Maestría en enfermería"
+      }
+    ],
+    "doctorados": [
+      {
+        "id": 1,
+        "nombre": "Doctorado en farmacia"
+      },
+      {
+        "id": 2,
+        "nombre": "Doctorado en enfermería"
+      }
+    ]
   },
   {
     "id": 19,
     "area": 3,
-    "nombre": "Ingeniería Electrónica y Eléctrica"
+    "nombre": "Ingeniería Electrónica y Eléctrica",
+    "maestrias": [],
+    "doctorados": []
   },
   {
     "id": 20,
     "area": 3,
-    "nombre": "Ingeniería de Sistemas e Informática"
+    "nombre": "Ingeniería de Sistemas e Informática",
+    "maestrias": [],
+    "doctorados": []
   }
 ]

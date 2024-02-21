@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Inicio from "./pages/Inicio.jsx";
 import Upg from "./pages/Upg.jsx";
+import MyD from "./pages/MyD.jsx";
+import ListaProgramas from "./pages/ListaProgramas.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
   {
     path: "/upg",
     element: <Upg></Upg>,
+  },
+  {
+    path: "/myd",
+    element: <MyD></MyD>,
+  },
+  {
+    path: "/listaProgramas",
+    element: <ListaProgramas></ListaProgramas>,
   },
 ]);
 
