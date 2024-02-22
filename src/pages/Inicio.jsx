@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import fondo1 from "../assets/fondo1.png";
+import fondo from "../assets/main_fondo.jpg";
 import areas from "../data/areas.json";
 
 export default function Inicio() {
@@ -10,7 +10,12 @@ export default function Inicio() {
   return (
     <div
       className="flex max-md:flex-col h-screen text-white text-lg text-center"
-      style={{ backgroundImage: `url(${fondo1})` }}
+      style={{
+        backgroundImage: `url(${fondo})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
     >
       {areas.map((item) => {
         return (
