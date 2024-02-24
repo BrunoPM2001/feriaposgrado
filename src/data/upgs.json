@@ -63,11 +63,30 @@
     "maestrias": [
       {
         "id": 1,
-        "nombre": "Maestría en farmacia"
-      },
-      {
-        "id": 2,
-        "nombre": "Maestría en enfermería"
+        "nombre": "Maestría en Farmacología con mención en Farmacología Experimental",
+        "reseña": "",
+        "modalidad": "Presencial",
+        "plan": "sum",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": "",
+        "contactos": [
+          {
+            "nombre": "fb",
+            "link": "..."
+          },
+          {
+            "nombre": "web",
+            "link": "..."
+          },
+          {
+            "nombre": "mail",
+            "link": "..."
+          },
+          {
+            "nombre": "wsp",
+            "link": "..."
+          }
+        ]
       }
     ],
     "doctorados": [
@@ -106,8 +125,124 @@
     "id": 10,
     "area": 2,
     "nombre": "Ciencias Biológicas",
-    "maestrias": [],
-    "doctorados": []
+    "contactos": [
+      {
+        "nombre": "fb",
+        "link": "https://www.facebook.com/FacultadCienciasBiologicasUNMSM"
+      },
+      {
+        "nombre": "web",
+        "link": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado"
+      },
+      {
+        "nombre": "mail",
+        "link": "upg.biologia@unmsm.edu.pe"
+      },
+      {
+        "nombre": "wsp",
+        "link": "+51 914 033 256"
+      }
+    ],
+    "maestrias": [
+      {
+        "nombre": "Maestría en Botánica Tropical con mención en Taxonomía y Sistemática Evolutiva",
+        "reseña": "Este programa académico busca consolidar la formación de profesionales e investigadores de alto nivel, con capacidad de realizar inventarios o catálogos para clasificar el conocimiento de la vegetación y flora como especie, así como la distribución ecológica para su conservación y manejo.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-botanica-tropical/mencion-taxonomia-y-sistematica-evolutiva",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Botánica Tropical con mención en Botánica Económica",
+        "reseña": "Este programa académico busca consolidar la formación de profesionales e investigadores de alto nivel, con capacidad de buscar la ampliación del conocimiento de las plantas útiles y el mejoramiento de cultivos de importancia económica en aspectos de alimentación, colorantes, perfumes, medicinas, textiles.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-botanica-tropical/mencion-botanica-economica",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Botánica Tropical con mención en Etnobotánica",
+        "reseña": "Este programa académico busca consolidar la formación de profesionales e investigadores de alto nivel, con capacidad de revalorizar las plantas utilizadas por civilizaciones y culturas antiguas, especialmente flora americana y peruana, con el fin de conservar el conocimiento ancestral y su protección.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-botanica-tropical/mencion-etnobotanica",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Zoología con mención en Sistemática y Evolución",
+        "reseña": "Este programa académico busca formar investigadores altamente calificados con capacidad de generar conocimientos y contribuir a la resolución de problemas taxonómicos con una visión integrativa de evolución, sistemática, ecología y biología de la conservación. Además, promueve el desarrollo de colecciones científicas debidamente identificadas y conservadas para su mantenimiento a largo plazo, con el fin de usarlas como pilar de estudios básicos o aplicados de la biodiversidad, su conservación y uso sostenible.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-zoologia/mencion-sistematica-y-evolucion",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Zoología con mención en Ecología y Conservación",
+        "reseña": "Este programa forma profesionales altamente especializados, con capacidad de generar información que contribuya a la conservación a largo plazo tanto a los ecosistemas como a las poblaciones animales en sus interacciones de las que forman parte. Asimismo, busca apoyo en la óptima gestión de la fauna silvestre en programas de desarrollo sostenible.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-zoologia/mencion-ecologia-y-conservacion",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Biología Molecular",
+        "reseña": "Este programa académico brinda herramientas y conocimientos en conceptos y metodologías actualizadas en el campo de la biología molecular; además formar especialistas del más alto nivel, por lo cual incentivamos en nuestros alumnos el deseo de documentarse constantemente de los avances de la disciplina.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-biologia-molecular",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Ecosistemas y Recursos Acuáticos con mención en Ecosistemas Acuáticos",
+        "reseña": "Este programa académico tiene como finalidad formar investigadores de alto nivel que aborden las diferentes problemáticas de nuestros ecosistemas marinos y de aguas continentales, conducentes a su aprovechamiento de manera sostenible.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-biologia-molecular",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Ecosistemas y Recursos Acuáticos con mención en Evaluación y Manejo de Recursos Pesqueros",
+        "reseña": "Este programa académico tiene como finalidad formar investigadores de alto nivel que evalúen y manejen los recursos acuáticos de nuestro país, de manera sostenible.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-ecosistemas/mencion-evaluacion-y-manejo-de-recursos-pesqueros",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Ecosistemas y Recursos Acuáticos con mención en Acuicultura",
+        "reseña": "Este programa académico tiene como finalidad formar investigadores de alto nivel en la acuicultura de los recursos acuáticos de nuestro país.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-ecosistemas/mencion-acuicultura",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Biodiversidad y Gestión de Ecosistemas",
+        "reseña": "El programa académico tiene como finalidad formar recursos humanos con la capacidad de generar conocimientos acerca de los ecosistemas existentes. Asimismo, busca promover y gestionar la conservación de la biodiversidad dentro de los enfoques del desarrollo sustentable y ecosistémico en las distintas regiones del país.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-biodiversidad",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Bioinformática y Ciencias Ómicas",
+        "reseña": "Este programa busca formar investigadores de alto nivel con capacidades para realizar estudios de avanzada en ciencias ómicas y computacionales. Los graduados tendrán las habilidades y conocimientos que les permitan generar nuevos conocimientos o procesos tecnológicos aplicados a la resolución de problemas con datos a gran escala.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/maestria-biodiversidad",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      }
+    ],
+    "doctorados": [
+      {
+        "nombre": "Doctorado en Ciencias Biológicas",
+        "reseña": "Este programa académico forma especialistas capaces de evaluar e investigar la problemática nacional en las diversas áreas del conocimiento biológico, con especial énfasis en los campos de la biodiversidad y biología molecular. Además, tendrá un amplio dominio en las actividades profesionales relacionadas con el campo biológico.",
+        "modalidad": "Presencial",
+        "plan": "https://biologia.unmsm.edu.pe/formacion-academica/posgrado/doctorado-ciencias-biologicas",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      }
+    ]
   },
   {
     "id": 11,
@@ -141,38 +276,264 @@
     "id": 16,
     "area": 3,
     "nombre": "Ingeniería Geológica, Minera, Metalúrgica y Geográfica",
-    "maestrias": [],
-    "doctorados": []
+    "contactos": [
+      {
+        "nombre": "fb",
+        "link": "https://web.facebook.com/upg.figmmg"
+      },
+      {
+        "nombre": "web",
+        "link": "https://upgfigmmg.unmsm.edu.pe/"
+      },
+      {
+        "nombre": "mail",
+        "link": "upg.figmmg@unmsm.edu.pe"
+      },
+      {
+        "nombre": "wsp",
+        "link": "+51 991 366 258"
+      }
+    ],
+    "maestrias": [
+      {
+        "nombre": "Maestría en Geología con mención en Geotecnia",
+        "reseña": "El estudiante de la Maestría en Geología con mención en Geotecnia de la UNMSM, es un profesional investigador capaz de desarrollar las capacidades para desarrollar y concretar el modelamiento de yacimientos minerales, exploración de los recursos minerales, geoquímica, geofísica, alteraciones hidrotermales, evaluación de recursos minerales y proyectos para poner en marcha la explotación de los diversos yacimientos. El egresado del programa puede desempeñarse igualmente en el ámbito académico, particularmente en el ejercicio de la investigación básica y aplicada, en el ámbito industrial donde puede aplicar conocimientos aplicados de ingeniería para la solución de problemas ambientales o en el ámbito de la gestión pública, donde puede desempeñarse en los organismos encargados de la planificación.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/20/geologia-con-mencion-en-geotecnia/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      },
+      {
+        "nombre": "Maestría en Geología con mención en Recursos Mineros",
+        "reseña": "El graduado de la Maestría en Geología con Mención en Recursos Mineros tendrá la formación académica de alto nivel y será capaz de desarrollar y concretar el estudio de los recursos minerales, realizar investigación y docencia universitaria, brindar asesoría y consultoría en planeamiento, ejecución y gestión de índole minero. La mención está dirigida a profesionales de Geología y Minería.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/20/geologia-con-mencion-en-recursos-mineros/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      },
+      {
+        "nombre": "Maestría en Geología con mención en Tectónica y Geología Regional",
+        "reseña": "El estudiante de la Maestría en Geología con mención en Tectónica y Geología Regional de la UNMSM, es un profesional investigador capaz de identificar problemas de Geodinámica interna y externa, cuencas sedimentarias, análisis de riesgos geológicos y resolución de diversas problemáticas geológicas del país. El egresado del programa puede desempeñarse igualmente en el ámbito académico, particularmente en el ejercicio de la investigación básica y aplicada, en el ámbito industrial donde puede aplicar conocimientos aplicados de ingeniería para la solución de problema ambientales o en el ámbito de la gestión pública, donde puede desempeñarse en los organismos encargados de la planificación.Crear y adoptar conocimiento científico y tecnológico ligado a la realidad nacional.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/20/geologia-con-mencion-en-tectonica-y-geologia-regional/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      },
+      {
+        "nombre": "Maestría en Ciencias Ambientales con mención en Desarrollo Sustentable en Minería y Recursos Energéticos",
+        "reseña": "El graduado de la Maestría en Ciencias Ambientales con Mención en Desarrollo Sustentable en Minería y Recursos Energéticos y afines obtendrá:\n- Una sólida formación de Ciencias Ambientales y una visión panorámica del entorno biótico y abiótico donde se desarrollen actividades mineras y energéticas.\n- Realizar investigación, docencia universitaria, asesoría y consultoría en gestión ambiental para el desarrollo sustentable en actividades minero energético.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/26/ciencias-ambientales-con-mencion-en-desarrollo-sustentable-en-mineria-y-recursos-energeticos/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      },
+      {
+        "nombre": "Maestría en Ciencias Ambientales con mención en Gestión y Control de la Contaminación",
+        "reseña": "El graduado de la Maestría en Ciencias Ambientales con mención en Gestión y Control de la Contaminación deberá poseer habilidades técnicas que le permitan:\n- Evaluar y diagnosticar las fuentes de contaminación y los niveles de impacto ambiental en los sistemas aire, agua y suelo, así como los efectos que presenta para las actividades productivas.\n- Evaluar y diseñar las tecnologías más apropiadas para el control de las fuentes de contaminación.\n- Aplicar su capacidad técnica y académica para adecuar tecnologías que permitan prevenir y restaurar sitios que presenten alteraciones en la salud de los sistemas ambientales, a fin de preservar con ello también la salud humana",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/26/ciencias-ambientales-con-mencion-en-gestion-y-control-de-la-contaminacion/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      },
+      {
+        "nombre": "Maestría en Ciencias Ambientales con mención en Gestión y Ordenamiento Ambiental del Territorio",
+        "reseña": "El graduado de la Maestría en Ciencias Ambientales con mención en Gestión y Ordenamiento Ambiental del Territorio es un profesional que estará en capacidad de tener una visión panorámica del entorno ecológico del territorio, uso vocacional, aptitud e impacto ambiental de actividades productivas y servicios, capacidad de acogida y categorías de ordenación territorial. Además, estará en condiciones realizar investigación, apoyo a la docencia universitaria, asesoría y consultoría en gestión del territorio y poder efectuar estudios de ordenación de espacios naturales, urbano, rurales, costeros-litorales, etc.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/26/ciencias-ambientales-con-mencion-en-gestion-y-ordenamiento-ambiental-del-territorio/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      },
+      {
+        "nombre": "Maestría en Gestión Integrada en Seguridad, Salud Ocupacional y Medio Ambiente",
+        "reseña": "La actividad industrial actualmente es un pilar económico importante del país, por ser generadora de divisas y de otras actividades económicas colaterales. La industria se encuentra emplazada en las diferentes regiones y entornos, los pisos ecológicos del Perú y también próximo a poblaciones que tiene carencias de servicios básicos y acceso al estado. El país requiere profesionales que tengan especialización en seguridad, salud ocupacional y medio ambiente de manera integral, puesto que todas se relacionan directamente por cuidar la seguridad del hombre, el ambiente donde trabajan a fin de preservar la salud de los trabajadores.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/20/gestion-integrada-en-seguridad-salud-ocupacional-y-medio-ambiente/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      },
+      {
+        "nombre": "Maestría en Ingeniería de Minas con mención en Gestión Minera y Ambiental",
+        "reseña": "El estudiante que egresa de la Maestría en Ingeniería de Minas con mención en Gestión Minera y Ambiental. Obtiene una sólida formación en procesos sostenibles y una visión panorámica del entorno en un contexto integral de la gestión minera, el medio ambiente y el cuidado de la salud y prevención de riesgos. Realiza investigación, docencia universitaria, asesora y realiza consultoría en gestión ambiental para el desarrollo sustentable en actividades mineras y afines.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/27/maestria-en-ingenieria-de-minas-con-mencion-en-gestion-minera-y-ambiental/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      },
+      {
+        "nombre": "Maestría en Geometalurgia",
+        "reseña": "El egresado de la Maestría en Geometalurgía de la UNMSM será un profesional que estará en capacidad de comprender y aplicar el concepto de Geometalurgia en el desarrollo y optimización de procesos mineros. Con ello estará en capacidad de hacer la producción minera más eficiente y económicamente más rentable. Tendrá habilidad para planificar, diseñar, dirigir, controlar, evaluar y optimizar el proceso de minado, con una visión geológica y metalúrgica, y también lograr una operación ambientalmente sostenible.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/27/maestria-en-geometalurgia/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      }
+    ],
+    "doctorados": [
+      {
+        "nombre": "Doctorado en Ciencias Ambientales",
+        "reseña": "El egresado del Doctorado en Ciencias Ambientales será capaz de generar conocimiento científico y tecnológico en las Ciencias Ambientales a través de la realización de investigaciones originales. Es un investigador formado para usar y aplicar metodologías que permitan resolver problemas ambientales con énfasis en los campos de la ciencia básica y aplicada. Proponer nuevas técnicas y métodos que lleven a la solución de los principales problemas ambientales locales, regionales y globales. Formular, evaluar y conducir proyectos de investigación multidisciplinarios e interdisciplinarios, manejando tecnologías de información y comunicación que permitan difundir el conocimiento a través de eventos científicos y revistas de impacto. Asesorar trabajos de investigación de estudiantes de pregrado y posgrado.",
+        "modalidad": "Semipresencial",
+        "plan": "https://upgfigmmg.unmsm.edu.pe/index.php/2022/10/20/ciencias-ambientales/",
+        "horario": "8 a.m. - 12 p.m.",
+        "link": "https://meet.google.com/avu-gfpo-yud"
+      }
+    ]
   },
   {
     "id": 17,
     "area": 3,
     "nombre": "Ingeniería Industrial",
-    "maestrias": [],
-    "doctorados": []
+    "contactos": [
+      {
+        "nombre": "fb",
+        "link": "https://www.facebook.com/upgfii.unmsm"
+      },
+      {
+        "nombre": "web",
+        "link": "https://industrial.unmsm.edu.pe/upg/"
+      },
+      {
+        "nombre": "mail",
+        "link": "informes_posgrado.fii@unmsm.edu.pe"
+      },
+      {
+        "nombre": "wsp",
+        "link": "+51 981 639 165"
+      }
+    ],
+    "maestrias": [
+      {
+        "nombre": "Maestría en Ingeniería Industrial",
+        "reseña": "Los altos niveles de incertidumbre provocados por un entorno mundial generan que las empresas que operan en el país se vean en la necesidad de innovar en tecnologías de producto, de proceso y de gestión, a fin de mantener y mejorar su posición competitiva. En este entorno, los egresados de la Maestría en Ingeniería Industrial serán capaces de analizar y optimizar los sistemas de producción de bienes y servicios dentro de una organización, utilizando las diferentes herramientas de la ingeniería industrial, para responder eficazmente a las necesidades de la industria y contribuir al desarrollo tecnológico y social de la región.",
+        "modalidad": "Semipresencial",
+        "plan": "https://sum.unmsm.edu.pe/loginWebSum/planes.htm",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Prevención de Riesgos Laborales y Ambientales",
+        "reseña": "Los cambios tecnológicos, sociales y económicos están incrementando los riesgos que afectan a las instituciones públicas y privadas, por lo que toda actividad laboral lleva implícito un riesgo para los trabajadores. Esta realidad ha generado el cumplimiento de un conjunto de obligaciones específicas. Además de la demanda social, que exige una regulación y vigilancia de las condiciones de seguridad, salud y medio ambiente. En este contexto, la Unidad de Posgrado de la Facultad de Ingeniería Industrial de la UNMSM presenta la Maestría en Prevención de Riesgos Laborales y Ambientales que se convierte en un instrumento óptimo para el desarrollo de una formación en materia de seguridad, salud y medioambiente, del más alto nivel, gracias a la experiencia acumulada y docencia dentro de este campo.",
+        "modalidad": "Semipresencial",
+        "plan": "https://sum.unmsm.edu.pe/loginWebSum/planes.htm",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Supply Chain Management",
+        "reseña": "La Unidad de Posgrado de la Facultad de Ingeniería Industrial dentro del escenario actual de globalización y competencia internacional, presenta la Maestría en Supply Chain Management brindará metodologías y herramientas para mejorar la toma de decisiones en la cadena de suministros. Todo esto en una visión global y apoyado por el soporte tecnológico, para una adecuada provisión de bienes y servicios en una organización.",
+        "modalidad": "Semipresencial",
+        "plan": "https://sum.unmsm.edu.pe/loginWebSum/planes.htm",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Dirección de Empresas",
+        "reseña": "La Unidad de Posgrado de la Facultad de Ingeniería Industrial ofrece un programa formativo e idóneo, la Maestría en Dirección de Empresas brinda conocimientos, habilidades y herramientas de gestión con el fin de liderar el crecimiento y sostenibilidad de un negocio en un mercado dinámico y competitivo, en continua evolución de una empresa y el desarrollo continuo de nuevas técnicas de gestión que se exigen en estos momentos.",
+        "modalidad": "Semipresencial",
+        "plan": "https://sum.unmsm.edu.pe/loginWebSum/planes.htm",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      }
+    ],
+    "doctorados": [
+      {
+        "nombre": "Doctorado en Ingeniería Industrial",
+        "reseña": "El Doctorado en Ingeniería Industrial es un programa de excelencia en el desarrollo de la ingeniería industrial formando profesionales altamente especializados, relacionados con las actividades productivas, comerciales y de servicios. El Doctorado promueve la formación de profesionales con capacidad de generar conocimiento con investigación de alta calidad, que contribuya de esta manera al desarrollo local, regional y nacional. Su alta incidencia en investigación permite analizar, diseñar e implementar modelos en áreas de logística, manufactura, sistemas de producción y desarrollo organizacional.",
+        "modalidad": "Semipresencial",
+        "plan": "https://sum.unmsm.edu.pe/loginWebSum/planes.htm",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Doctorado en Gerencia de Empresas",
+        "reseña": "El Doctorado en Gerencia de Empresas es un programa que promueve la formación de expertos en respuesta a las necesidades de contar con profesionales investigadores en la iniciación, creación y desarrollo de empresas, promoviendo la innovación, desarrollo tecnológico y el compromiso con el bienestar social. Está dedicado a promover investigaciones en un entorno cambiante y complejo mediante el análisis de modelos y aportaciones científicas que produzcan nuevos conocimientos vinculados a las demandas del sector productivo del país.",
+        "modalidad": "Semipresencial",
+        "plan": "https://sum.unmsm.edu.pe/loginWebSum/planes.htm",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      }
+    ]
   },
   {
     "id": 18,
     "area": 1,
     "nombre": "Psicología",
-    "maestrias": [
+    "contactos": [
       {
-        "id": 1,
-        "nombre": "Maestría en farmacia"
+        "nombre": "fb",
+        "link": "https://www.facebook.com/PosgradoPsicologiaUNMSM"
       },
       {
-        "id": 2,
-        "nombre": "Maestría en enfermería"
+        "nombre": "web",
+        "link": "https://psicologia.unmsm.edu.pe/index.php/inicio-posgrado"
+      },
+      {
+        "nombre": "mail",
+        "link": "upg.psicologia@unmsm.edu.pe"
+      },
+      {
+        "nombre": "wsp",
+        "link": "+51 914 033 086"
+      }
+    ],
+    "maestrias": [
+      {
+        "nombre": "Maestría en Psicología con mención en Psicología Educativa",
+        "reseña": "La Maestría de investigación en Psicología Educativa busca desarrollar competencias en el manejo de técnicas para la investigación en salud mental, con un enfoque ético y responsabilidad social. Aspira a diseñar intervenciones en psicología educativa adaptadas a las necesidades sociales, considerando la diversidad nacional e internacional. Además, pretende fortalecer la promoción de la salud, abarcando niveles de prevención, asistencia y rehabilitación. La capacitación se centra en dotar a los psicólogos educativos con habilidades para evaluación, intervención y tratamientos éticos. Finalmente, busca preparar a los participantes para la investigación y docencia en psicología educativa.",
+        "modalidad": "Semipresencial",
+        "plan": "https://drive.google.com/file/d/1LavygoesIceomq4pCuoTpijPppC5szDr/view",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Psicología con mención en Psicología Clínica y de la Salud",
+        "reseña": "La Maestría de investigación en Psicología Clínica y de la Salud busca formar profesionales competentes en salud mental, con ética y responsabilidad social. Se orienta a diseñar intervenciones adaptadas a la realidad nacional e internacional, promoviendo competencias clínicas para mejorar la calidad de las intervenciones en prevención, asistencia y rehabilitación. Además, capacita a psicólogos clínicos para realizar evaluaciones y tratamientos con responsabilidad y ética, y proporciona habilidades para la investigación y docencia en psicología clínica y de la salud.",
+        "modalidad": "Semipresencial",
+        "plan": "https://drive.google.com/file/d/1LavygoesIceomq4pCuoTpijPppC5szDr/view",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Psicología con mención en Gestión del Riesgo Psicosocial para la Seguridad Ciudadana",
+        "reseña": "La Maestría de investigación en Psicología con especialización en Gestión del Riesgo Psicosocial para la Seguridad Ciudadana está enfocada en el estudio científico de la violencia con miras a la promoción de la seguridad ciudadana. Tiene como objetivos fundamentales: Desarrollar competencias en investigación, diagnóstico e intervención de riesgos psicosociales, diseñar estrategias específicas para la seguridad ciudadana, mejorar la convivencia social mediante competencias psicológicas, capacitar éticamente en gestión del riesgo psicosocial, y potenciar habilidades de investigación y docencia en este ámbito.",
+        "modalidad": "Semipresencial",
+        "plan": "https://drive.google.com/file/d/1LavygoesIceomq4pCuoTpijPppC5szDr/view",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Psicología con mención en Psicología Organizacional",
+        "reseña": "La Maestría de investigación en Psicología Organizacional aspira a formar profesionales altamente competentes en la gestión del talento humano, con un fuerte compromiso ético. Busca diseñar estrategias de intervención organizacional adaptadas a la realidad global y nacional, demostrando eficiencia y responsabilidad. Además, se propone capacitar éticamente en investigación, promoviendo la generación de investigaciones de calidad. El objetivo es fortalecer competencias investigativas para el desarrollo de nuevos conocimientos, consolidando herramientas metodológicas en el ámbito organizacional con un enfoque socialmente responsable.",
+        "modalidad": "Semipresencial",
+        "plan": "https://drive.google.com/file/d/1LavygoesIceomq4pCuoTpijPppC5szDr/view",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría en Psicología con mención en Intervención Psicoeducativa en Trastornos del Neurodesarrollo",
+        "reseña": "La Maestría de investigación en Psicología especializada en Intervención Psicoeducativa en Trastornos del Neurodesarrollo, busca formar profesionales éticos y socialmente comprometidos. El programa se enfoca en desarrollar estrategias psicoeducativas para el bienestar social, crear planes de prevención a nivel comunitario, y liderar investigaciones inclusivas sobre trastornos del neurodesarrollo. Además, pretende potenciar habilidades para el diseño y ejecución de investigaciones en intervención psicoeducativa, con el objetivo de contribuir a la diversidad y promover la producción científica alineada con las necesidades del país.",
+        "modalidad": "Semipresencial",
+        "plan": "https://drive.google.com/file/d/1LavygoesIceomq4pCuoTpijPppC5szDr/view",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
+      },
+      {
+        "nombre": "Maestría Profesional en Psicología Criminológica",
+        "reseña": "La Psicología Criminológica cumple un rol dentro de la sociedad para satisfacer y/o cubrir las necesidades que requiera y así poder lograr el cambio, desarrollo o transformación, frente a una problemática. El programa de Maestría Profesionalizante en Psicología Criminológica responde a la necesidad de formar académicos y profesionales especializados de alto nivel que puedan responder a los desafíos que plantea la realidad social cambiante en nuestro país.",
+        "modalidad": "Semipresencial",
+        "plan": "https://drive.google.com/file/d/1LavygoesIceomq4pCuoTpijPppC5szDr/view",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
       }
     ],
     "doctorados": [
       {
-        "id": 1,
-        "nombre": "Doctorado en farmacia"
-      },
-      {
-        "id": 2,
-        "nombre": "Doctorado en enfermería"
+        "nombre": "Doctorado en Psicología",
+        "reseña": "El programa de Doctorado en Psicología tiene la finalidad de desarrollar competencias de investigación especializada para identificar y resolver problemas del ámbito psicológico aplicadas a sus diferentes áreas de estudio mediante la producción del conocimiento científico y programas de intervención para contribuir a mejorar el entorno de las relaciones interpersonales y sociales, y así lograr bienestar en la sociedad. Asimismo, busca formar investigadores en psicología con competencias en docencia universitaria para enseñar y difundir conocimiento científico en el ámbito psicológico.",
+        "modalidad": "Semipresencial",
+        "plan": "https://drive.google.com/file/d/1LavygoesIceomq4pCuoTpijPppC5szDr/view",
+        "horario": "6 p.m. - 10 p.m.",
+        "link": ""
       }
     ]
   },
@@ -180,14 +541,101 @@
     "id": 19,
     "area": 3,
     "nombre": "Ingeniería Electrónica y Eléctrica",
-    "maestrias": [],
+    "contactos": [
+      {
+        "nombre": "fb",
+        "link": "https://www.facebook.com/Unidaddepostgradofiee/"
+      },
+      {
+        "nombre": "web",
+        "link": "https://fiee.unmsm.edu.pe/unidad-de-posgrado#"
+      },
+      {
+        "nombre": "mail",
+        "link": "postfie@unmsm.edu.pe"
+      },
+      {
+        "nombre": "wsp",
+        "link": "+51 982 086 366"
+      }
+    ],
+    "maestrias": [
+      {
+        "nombre": "Maestría en Dirección Estratégica de las Telecomunicaciones",
+        "reseña": "En la maestría en Dirección Estratégica de las Telecomunicaciones tenemos como objetivo principal formar profesionales capaces de dirigir con éxito empresas e instituciones del sector de las Telecomunicaciones, y/u otros sectores que cuenten con unidades de telecomunicaciones tales como minería, electricidad, servicios colaterales a las telecomunicaciones, etc. Nuestra oferta educativa es en función a las necesidades de los profesionales y académicos requeridos, altamente calificados para el desarrollo nacional e internacional. Por tanto, está dirigida a estudiantes peruanos y extranjeros. Las Maestrías en San Marcos se entrelazan consistentemente en los diversos abordajes ontológicos, epistemológicos, metodológicos e instrumentales con el fin de generar conocimiento mediante la investigación ética y de alta calidad sobre los problemas relevantes para el país.",
+        "modalidad": "Presencial",
+        "plan": "https://drive.google.com/file/d/1LavygoesIceomq4pCuoTpijPppC5szDr/view",
+        "horario": "2 p.m. - 5 p.m.",
+        "link": ""
+      }
+    ],
     "doctorados": []
   },
   {
     "id": 20,
     "area": 3,
     "nombre": "Ingeniería de Sistemas e Informática",
-    "maestrias": [],
-    "doctorados": []
+    "contactos": [
+      {
+        "nombre": "fb",
+        "link": "https://www.facebook.com/Admision.upgfisi.UNMSM"
+      },
+      {
+        "nombre": "web",
+        "link": "https://sistemas.unmsm.edu.pe/posgrado/"
+      },
+      {
+        "nombre": "mail",
+        "link": "admision.upg.fisi@unmsm.edu.pe"
+      },
+      {
+        "nombre": "wsp",
+        "link": "+51 932 040 664"
+      }
+    ],
+    "maestrias": [
+      {
+        "nombre": "Maestría en Ingeniería de Sistemas e Informática con mención en Gestión de Tecnología de Información y Comunicaciones",
+        "reseña": "La Maestría en Ingeniería de Sistemas e Informática con mención en Gestión de Tecnología de Información y Comunicaciones se crea en el año 2009, con el propósito de cubrir la demanda de profesionales e investigadores competentes para enfrentar con éxito los retos que involucra la gestión, la investigación, el desarrollo y el dominio de las nuevas tecnologías aplicadas a las organizaciones de acuerdo con los estándares internacionales de calidad reconocidos en el ámbito académico y profesional. La modalidad es semipresencial, el semestre tiene una duración de 16 sesiones, en su mayor parte nuestras sesiones son de manera virtual-síncrona, es decir, son en vivo cada semana con el docente del curso asignado, y solo 1 o 2 sesiones son de manera presencial en las instalaciones de nuestra facultad.",
+        "modalidad": "Semipresencial",
+        "plan": "",
+        "horario": "2 p.m. - 10 p.m.",
+        "link": "https://meet.google.com/ety-wwci-dfr"
+      },
+      {
+        "nombre": "Maestría en Ingeniería de Sistemas e Informática con mención en Ingeniería de Software",
+        "reseña": "La Maestría en Ingeniería de Sistemas e Informática con mención en Ingeniería de Software en la modalidad presencial, se crea en el año 2002, con el propósito de cubrir la demanda de profesionales e investigadores competentes para enfrentar con éxito los retos que involucra la gestión, la investigación, el desarrollo y el dominio de las nuevas Tecnologías aplicadas a las organizaciones de acuerdo con los estándares internacionales de calidad reconocidos en el ámbito académico y profesional. La modalidad es semipresencial, el semestre tiene una duración de 16 sesiones, en su mayor parte nuestras sesiones son de manera virtual-síncrona, es decir, son en vivo cada semana con el docente del curso asignado, y solo 1 o 2 sesiones son de manera presencial en las instalaciones de nuestra facultad.",
+        "modalidad": "Semipresencial",
+        "plan": "",
+        "horario": "2 p.m. - 10 p.m.",
+        "link": "https://meet.google.com/ety-wwci-dfr"
+      },
+      {
+        "nombre": "Maestría en Gestión de la Información y del Conocimiento",
+        "reseña": "La Maestría en Gestión de la Información y del Conocimiento en la modalidad presencial, se crea en el año 2007, con el propósito de cubrir la demanda de profesionales competentes para enfrentar con éxito los retos que involucra la gestión de la información y del conocimiento, así como el dominio de las nuevas Tecnologías aplicadas a las organizaciones de acuerdo con los estándares internacionales de calidad. La modalidad es semipresencial, el semestre tiene una duración de 16 sesiones, en su mayor parte nuestras sesiones son de manera virtual-síncrona, es decir, son en vivo cada semana con el docente del curso asignado, y solo 1 o 2 sesiones son de manera presencial en las instalaciones de nuestra facultad.",
+        "modalidad": "Semipresencial",
+        "plan": "",
+        "horario": "2 p.m. - 10 p.m.",
+        "link": "https://meet.google.com/ety-wwci-dfr"
+      },
+      {
+        "nombre": "Maestría Profesional en Gobierno de Tecnologías de Información",
+        "reseña": "La Maestría Profesional en Gobierno de Tecnologías de Información, se crea en el año 2009, con el propósito de cubrir la demanda de profesionales e investigadores competentes para enfrentar con éxito los retos que involucra la gestión, la investigación, el desarrollo y el dominio de las nuevas Tecnologías aplicadas a las organizaciones de acuerdo con los estándares internacionales de calidad reconocidos en el ámbito académico y profesional. La modalidad es semipresencial, el semestre tiene una duración de 16 sesiones, en su mayor parte nuestras sesiones son de manera virtual-síncrona, es decir, son en vivo cada semana con el docente del curso asignado, y solo 1 o 2 sesiones son de manera presencial en las instalaciones de nuestra facultad.",
+        "modalidad": "Semipresencial",
+        "plan": "",
+        "horario": "2 p.m. - 10 p.m.",
+        "link": "https://meet.google.com/ety-wwci-dfr"
+      }
+    ],
+    "doctorados": [
+      {
+        "nombre": "Doctorado en Ingeniería de Sistemas e Informática",
+        "reseña": "El Doctorado en Ingeniería de Sistemas e Informática en la modalidad presencial, se crea en el año 2013, con el propósito de cubrir la demanda de profesionales e investigadores competentes para enfrentar con éxito los retos que involucra la gestión, la investigación, el desarrollo y el dominio de las nuevas Tecnologías aplicadas a las organizaciones de acuerdo con los estándares internacionales de calidad reconocidos en el ámbito académico y profesional.",
+        "modalidad": "Presencial",
+        "plan": "",
+        "horario": "2 p.m. - 10 p.m.",
+        "link": "https://meet.google.com/ety-wwci-dfr"
+      }
+    ]
   }
 ]

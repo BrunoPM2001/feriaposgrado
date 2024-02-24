@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import fondo from "../assets/main_fondo.jpg";
+import fondo from "../assets/main.jpg";
 import areas from "../data/areas.json";
 
 export default function Inicio() {
@@ -23,9 +23,9 @@ export default function Inicio() {
             key={item.id}
             onClick={(e) => goToUpgs(item.id)}
             to="/upg"
-            className="flex flex-1 bg-black opacity-70 hover:opacity-45 transition-all items-center justify-center cursor-pointer"
+            className="flex flex-1 bg-black text-2xl font-bold opacity-70 hover:opacity-55 transition-all items-center justify-center cursor-pointer"
           >
-            <h4>{item.nombre}</h4>
+            {item.nombre}
           </NavLink>
         );
       })}
