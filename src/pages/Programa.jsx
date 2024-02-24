@@ -72,6 +72,7 @@ export default function Programa() {
             <a
               className="mt-4 border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
               href={grado.link}
+              target="_blank"
             >
               <SiGooglemeet />
             </a>
@@ -85,24 +86,28 @@ export default function Programa() {
             <a
               className="border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
               href={upg.contactos[0].link}
+              target="_blank"
             >
               <FaFacebookF />
             </a>
             <a
               className="border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
               href={upg.contactos[1].link}
+              target="_blank"
             >
               <TbWorld />
             </a>
             <a
               className="border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
               href={"mailTo:" + upg.contactos[2].link}
+              target="_blank"
             >
               <SiGmail />
             </a>
             <a
               className="border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
               href={"tel:" + upg.contactos[3].link}
+              target="_blank"
             >
               <FaPhone />
             </a>
