@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import fondo from "../assets/main.jpg";
+import logo from "../assets/logo.png";
 import areas from "../data/areas.json";
 
 export default function Inicio() {
@@ -22,10 +23,11 @@ export default function Inicio() {
           <NavLink
             key={item.id}
             onClick={(e) => goToUpgs(item.id)}
-            to="/upg"
-            className="flex flex-1 bg-black text-2xl font-bold opacity-70 hover:opacity-55 transition-all items-center justify-center cursor-pointer"
+            to="/feria/upg"
+            className="flex flex-col justify-center items-center flex-1 bg-black text-2xl font-bold opacity-70 hover:opacity-55 transition-all cursor-pointer"
           >
-            {item.nombre}
+            <p>{item.nombre}</p>
+            <img src={logo} className="w-32" alt="Alt" />
           </NavLink>
         );
       })}

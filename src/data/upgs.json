@@ -3,6 +3,7 @@
     "id": 1,
     "area": 1,
     "nombre": "Medicina",
+    "img": "assets/medicina.jpg",
     "maestrias": [
       {
         "id": 1,
@@ -19,6 +20,7 @@
     "id": 2,
     "area": 5,
     "nombre": "Derecho y Ciencia Política",
+    "img": "assets/derecho.jpg",
     "maestrias": [
       {
         "id": 1,
@@ -35,6 +37,7 @@
     "id": 3,
     "area": 5,
     "nombre": "Letras y Ciencias Humanas",
+    "img": "assets/letras.jpg",
     "maestrias": [
       {
         "id": 1,
@@ -60,6 +63,7 @@
     "id": 4,
     "area": 1,
     "nombre": "Farmacia y Bioquímica",
+    "img": "assets/farmacia.jpg",
     "maestrias": [
       {
         "id": 1,
@@ -104,6 +108,7 @@
     "id": 6,
     "area": 5,
     "nombre": "Educación",
+    "img": "assets/educacion.jpg",
     "maestrias": [],
     "doctorados": []
   },
@@ -111,6 +116,7 @@
     "id": 7,
     "area": 3,
     "nombre": "Química e Ingeniería Química",
+    "img": "assets/quimica.jpg",
     "maestrias": [],
     "doctorados": []
   },
@@ -118,6 +124,7 @@
     "id": 9,
     "area": 4,
     "nombre": "Ciencias Administrativas",
+    "img": "assets/admin.jpg",
     "maestrias": [],
     "doctorados": []
   },
@@ -125,6 +132,7 @@
     "id": 10,
     "area": 2,
     "nombre": "Ciencias Biológicas",
+    "img": "assets/biologicas.jpg",
     "contactos": [
       {
         "nombre": "fb",
@@ -248,6 +256,7 @@
     "id": 11,
     "area": 4,
     "nombre": "Ciencias Contables",
+    "img": "assets/contables.jpg",
     "maestrias": [],
     "doctorados": []
   },
@@ -255,6 +264,7 @@
     "id": 12,
     "area": 4,
     "nombre": "Ciencias Económicas",
+    "img": "assets/economicas.jpg",
     "maestrias": [],
     "doctorados": []
   },
@@ -262,6 +272,7 @@
     "id": 14,
     "area": 2,
     "nombre": "Ciencias Matemáticas",
+    "img": "assets/matematicas.jpg",
     "maestrias": [],
     "doctorados": []
   },
@@ -269,6 +280,7 @@
     "id": 15,
     "area": 2,
     "nombre": "Ciencias Sociales",
+    "img": "assets/sociales.jpg",
     "maestrias": [],
     "doctorados": []
   },
@@ -276,6 +288,7 @@
     "id": 16,
     "area": 3,
     "nombre": "Ingeniería Geológica, Minera, Metalúrgica y Geográfica",
+    "img": "assets/figmmg.jpg",
     "contactos": [
       {
         "nombre": "fb",
@@ -383,6 +396,7 @@
     "id": 17,
     "area": 3,
     "nombre": "Ingeniería Industrial",
+    "img": "assets/industrial.jpg",
     "contactos": [
       {
         "nombre": "fb",
@@ -458,6 +472,7 @@
     "id": 18,
     "area": 1,
     "nombre": "Psicología",
+    "img": "assets/psico.jpg",
     "contactos": [
       {
         "nombre": "fb",
@@ -541,6 +556,7 @@
     "id": 19,
     "area": 3,
     "nombre": "Ingeniería Electrónica y Eléctrica",
+    "img": "assets/fiee.jpg",
     "contactos": [
       {
         "nombre": "fb",
@@ -575,6 +591,7 @@
     "id": 20,
     "area": 3,
     "nombre": "Ingeniería de Sistemas e Informática",
+    "img": "assets/fisi.jpg",
     "contactos": [
       {
         "nombre": "fb",

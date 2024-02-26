@@ -10,19 +10,19 @@ import Programa from "./pages/Programa.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/feria",
     element: <Inicio></Inicio>,
   },
   {
-    path: "/upg",
+    path: "/feria/upg",
     element: <Upg></Upg>,
   },
   {
-    path: "/myd",
+    path: "/feria/myd",
     element: <MyD></MyD>,
   },
   {
-    path: "/programa",
+    path: "/feria/programa",
     element: <Programa></Programa>,
   },
 ]);
