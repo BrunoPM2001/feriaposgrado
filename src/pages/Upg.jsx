@@ -10,13 +10,13 @@ export default function Upg() {
     (upg) => upg.area == localStorage.getItem("area_id")
   );
 
+  const urlFondo = `./assets/Fondo-${localStorage.getItem("area_id")}.jpg`;
+
   return (
     <div
       className="flex max-md:flex-col h-screen text-white text-lg text-center"
       style={{
-        backgroundImage: `url(/feria/src/assets/Fondo-${localStorage.getItem(
-          "area_id"
-        )}.jpg)`,
+        backgroundImage: `url(${urlFondo})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -32,7 +32,7 @@ export default function Upg() {
           >
             <p>{item.nombre}</p>
             <img
-              src={"/feria/src/" + item.img}
+              src={"./" + item.img}
               className="w-full max-h-80 px-4 object-cover"
               alt=""
             />
