@@ -36,7 +36,7 @@ export default function Upg() {
                 <li>
                   <NavLink
                     onClick={(e) => goToListaProgramas("D", programa.nombre)}
-                    to="/programa"
+                    to="/feria/programa"
                     className="cursor-pointer text-xl hover:text-gray-200"
                   >
                     * {programa.nombre}

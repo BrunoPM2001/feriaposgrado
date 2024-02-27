@@ -1,7 +1,8 @@
 import { SiGooglemeet, SiGmail } from "react-icons/si";
 import { FaFacebookF, FaPhone } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
-import img from "../assets/main.jpg";
+import img1 from "../assets/magisters.png";
+import img2 from "../assets/doctores.png";
 import data from "../data/upgs.json";
 
 export default function Programa() {
@@ -20,7 +21,11 @@ export default function Programa() {
   return (
     <div className="flex flex-wrap gap-10 h-screen py-14 mx-6 text-center">
       <div className="flex flex-col flex-wrap flex-1 h-full items-center justify-center min-w-80">
-        <img className="w-full h-3/4 object-cover border" src={img} alt="Ref" />
+        <img
+          className="w-full h-3/4 object-cover border"
+          src={localStorage.getItem("grado") == "M" ? img1 : img2}
+          alt="Ref"
+        />
         <h2 className="text-2xl font-semibold text-red-800 mt-4">
           {grado.nombre}
         </h2>
@@ -106,7 +111,7 @@ export default function Programa() {
             </a>
             <a
               className="border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
-              href={"tel:" + upg.contactos[3].link}
+              href={"tel:" + grado.wsp[0].link}
               target="_blank"
             >
               <FaPhone />

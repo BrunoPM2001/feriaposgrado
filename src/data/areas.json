@@ -1,22 +1,27 @@
 [
   {
     "id": 1,
+    "cod": "A",
     "nombre": "Ciencias de la Salud"
   },
   {
     "id": 2,
+    "cod": "B",
     "nombre": "Ciencias Básicas"
   },
   {
     "id": 3,
+    "cod": "C",
     "nombre": "Ingenierías"
   },
   {
     "id": 4,
+    "cod": "D",
     "nombre": "Ciencias Económicas y de la Gestión"
   },
   {
     "id": 5,
+    "cod": "E",
     "nombre": "Humanidades y Ciencias Jurídicas y Sociales"
   }
 ]
