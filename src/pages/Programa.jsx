@@ -3,6 +3,8 @@ import { FaFacebookF, FaPhone } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import img1 from "../assets/magisters.png";
 import img2 from "../assets/doctores.png";
+import doc1 from "../assets/doc_bio.jpeg";
+import doc2 from "../assets/doc_salud.jpeg";
 import data from "../data/upgs.json";
 import { useState } from "react";
 
@@ -22,12 +24,22 @@ export default function Programa() {
     );
   }
 
+  const imagenCargar = () => {
+    if (grado.nombre == "Doctorado en Ciencias de la Salud") {
+      return doc2;
+    } else if (grado.nombre == "Doctorado en Ciencias Biológicas") {
+      return doc1;
+    } else {
+      return localStorage.getItem("grado") == "M" ? img1 : img2;
+    }
+  };
+
   return (
     <div className="flex flex-wrap gap-10 h-screen py-14 mx-6 text-center">
       <div className="flex flex-col flex-wrap flex-1 h-full items-center justify-center min-w-80">
         <img
           className="w-full h-3/4 object-cover border"
-          src={localStorage.getItem("grado") == "M" ? img1 : img2}
+          src={imagenCargar()}
           alt="Ref"
         />
         <h2 className="text-2xl font-semibold text-red-800 mt-4">
