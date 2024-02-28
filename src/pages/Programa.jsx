@@ -85,7 +85,11 @@ export default function Programa() {
             <h3 className="text-2xl font-semibold text-red-800">
               Horario de atención
             </h3>
-            <p className="mt-5 text-xl">{grado.horario}</p>
+            <p className="mt-3 text-xl text-center">
+              {upg.dia} de Marzo
+              <br />
+              {grado.horario}
+            </p>
           </div>
           <div className="flex flex-col items-center py-4 px-16 shadow-md">
             <h3 className="text-2xl font-semibold text-red-800">
