@@ -4,8 +4,12 @@ import { TbWorld } from "react-icons/tb";
 import img1 from "../assets/magisters.png";
 import img2 from "../assets/doctores.png";
 import data from "../data/upgs.json";
+import { useState } from "react";
 
 export default function Programa() {
+  const [pop1, setPop1] = useState(false);
+  const [pop2, setPop2] = useState(false);
+
   const upg = data.find((upg) => upg.id == localStorage.getItem("upg_id"));
   let grado;
   if (localStorage.getItem("grado") == "M") {
@@ -57,6 +61,7 @@ export default function Programa() {
                     ? "https://sum.unmsm.edu.pe/loginWebSum/planes.htm"
                     : grado.plan
                 }
+                target="_blank"
               >
                 aquí
               </a>
@@ -103,17 +108,55 @@ export default function Programa() {
               <TbWorld />
             </a>
             <a
-              className="border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
+              className="relative border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
               href={"mailTo:" + upg.contactos[2].link}
               target="_blank"
+              onMouseEnter={() => {
+                setPop1(true);
+              }}
+              onMouseLeave={() => {
+                setPop1(false);
+              }}
             >
+              <div
+                id="popover-correo"
+                class={`absolute ${
+                  pop1 ? "" : "invisible"
+                } -right-0 -top-24 z-10 inline-block w-fit text-sm text-black transition-opacity duration-300 bg-white border border-red-800 rounded-lg shadow-sm opacity-100`}
+              >
+                <div class="px-3 py-2 bg-red-800 border-b border-red-800 rounded-t-lg">
+                  <h3 class="font-bold text-white">Correo</h3>
+                </div>
+                <div class="px-3 py-2">
+                  <p>{upg.contactos[2].link}</p>
+                </div>
+              </div>
               <SiGmail />
             </a>
             <a
-              className="border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
+              className="relative border border-red-800 text-white bg-red-800 text-2xl rounded-full p-3 hover:text-red-800 hover:bg-white duration-300"
               href={"tel:" + grado.wsp[0].link}
               target="_blank"
+              onMouseEnter={() => {
+                setPop2(true);
+              }}
+              onMouseLeave={() => {
+                setPop2(false);
+              }}
             >
+              <div
+                id="popover-tel"
+                class={`absolute ${
+                  pop2 ? "" : "invisible"
+                } -right-0 -top-24 z-10 inline-block w-36 text-sm text-black transition-opacity duration-300 bg-white border border-red-800 rounded-lg shadow-sm opacity-100`}
+              >
+                <div class="px-3 py-2 bg-red-800 border-b border-red-800 rounded-t-lg">
+                  <h3 class="font-bold text-white">Teléfono</h3>
+                </div>
+                <div class="px-3 py-2">
+                  <p>{grado.wsp[0].link}</p>
+                </div>
+              </div>
               <FaPhone />
             </a>
           </div>
