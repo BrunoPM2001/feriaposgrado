@@ -1,5 +1,6 @@
 import { SiGooglemeet, SiGmail } from "react-icons/si";
-import { FaFacebookF, FaPhone } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { TbWorld } from "react-icons/tb";
 import img1 from "../assets/magisters.png";
 import img2 from "../assets/doctores.png";
@@ -173,7 +174,7 @@ export default function Programa() {
                   <p>{grado.wsp[0].link}</p>
                 </div>
               </div>
-              <FaPhone />
+              <IoLogoWhatsapp />
             </a>
           </div>
         </div>
