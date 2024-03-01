@@ -10,7 +10,7 @@ export default function Upg() {
   const upg = upgs.find((upg) => upg.id == localStorage.getItem("upg_id"));
 
   return (
-    <div className="flex flex-wrap max-md:flex-col h-screen text-lg">
+    <div className="flex flex-wrap max-sm:flex-col h-screen text-lg">
       {upg.maestrias.length != 0 && (
         <div className="flex flex-col flex-1 p-8 bg-white hover:bg-gray-200 text-black transition-all justify-center">
           <h1 className="text-4xl font-bold text-red-800">Maestrías</h1>
